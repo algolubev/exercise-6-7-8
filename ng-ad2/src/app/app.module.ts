@@ -28,8 +28,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
     MatListModule,
     MsalModule.forRoot( new PublicClientApplication({
       auth: {
-        clientId: '48fe3f36-07df-4ba4-a3a7-e464b8928793',
-        authority: 'https://login.microsoftonline.com/alexandergolubevarcadiaspb.onmicrosoft.com',
+        clientId: 'xxx',
+        authority: 'https://login.microsoftonline.com/you.onmicrosoft.com',
         redirectUri: 'http://localhost:4200'
       },
       cache: {
