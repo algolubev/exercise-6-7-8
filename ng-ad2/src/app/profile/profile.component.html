@@ -1,0 +1,15 @@
+<p>profile works!</p>
+<table>
+  <thead>
+      <th>Date</th>
+      <th>Temperature</th>
+      <th>Summary</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let f of forecast">
+        <td>{{f.date}}</td>
+        <td>{{f.temperatureC}}</td>
+        <td>{{f.summary}}</td>
+      </tr>
+  </tbody>
+</table>
